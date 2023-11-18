@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import axios from "axios"; //npm install axios
 import { Route, Routes } from "react-router-dom";
 
-// import Login from "./pages/Login"
+import Login from "./pages/login/Login"
 import Home from "./pages/home/Home";
 // import Cadastro from "./pages/Cadastro";
 import Menu from "./component/menu/Menu";
@@ -35,7 +35,7 @@ render(){
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/Equipe" element={<Equipe grupo ={ this.state.equipe }/>}/> 
-          {/* <Route path="/Login" element={<Login/>}/> */}
+          <Route path="/Login" element={<Login/>}/>
           {/* <Route path="/Cadastro" element={<Cadastro/>}/> */}
           
           </Routes>

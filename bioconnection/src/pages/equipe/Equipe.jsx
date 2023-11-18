@@ -1,5 +1,8 @@
+import './Equipe.css'
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
+
+
 
 export default function Equipe( {grupo} ){
     
@@ -8,8 +11,7 @@ export default function Equipe( {grupo} ){
 
     return(
         <>
-        <h1 id="team">Equipe</h1>
-        {/* <hr /> */}
+        <h1 className="pagina">EQUIPE</h1>
 
         <div className="time">
 

@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 // import './Menu.css'
-import './pages/equipe/Equipe.css'
+// import './pages/equipe/Equipe.css'
 // import './rodape.css'
 import Home from './pages/home/Home.jsx';
 // import Cadastro from './pages/Cadastro.jsx';
