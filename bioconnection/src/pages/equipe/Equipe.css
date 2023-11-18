@@ -1,0 +1,44 @@
+#line_team{
+    position: relative;
+    width: 90vw;
+    float: left;
+    margin-top: 12rem;
+    margin-left: 2rem;
+}
+.team{
+    display: flex;
+    /* float: left; */
+    margin-top: 4rem;
+    margin-left: 54rem;
+    
+}
+.time{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+#line_team_mini{
+    position: relative;
+    width: 4vw;
+    float: left;
+    margin-top: 7rem;
+    margin-left: -5.5rem;
+    
+}
+hr{
+   
+    width: 100px;
+    margin-left: 865px;
+}
+#imgRedes{
+    text-align: center;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.equipe{
+    float: left;
+    flex-wrap: wrap;
+    margin: 0 115px 100px 115px;
+    zoom: 80%;
+}
