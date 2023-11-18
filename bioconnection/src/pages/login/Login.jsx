@@ -1,9 +1,9 @@
+import './Login.css'
 import { useRef } from 'react';
 import Login_img from "../../assets/login.png";
 import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 
-import './Login.css'
 
 const Login = () => {
   const { register, handleSubmit} = useForm();

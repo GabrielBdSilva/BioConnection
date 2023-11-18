@@ -6,9 +6,9 @@ import { Route, Routes } from "react-router-dom";
 
 import Login from "./pages/login/Login"
 import Home from "./pages/home/Home";
-// import Cadastro from "./pages/Cadastro";
 import Menu from "./component/menu/Menu";
 import Equipe from "./pages/equipe/Equipe";
+import Cadastro from "./pages/cadastro/Cadastro";
 
 // import { Outlet } from "react-router-dom";
 
@@ -36,7 +36,7 @@ render(){
           <Route path="/" element={<Home/>}/>
           <Route path="/Equipe" element={<Equipe grupo ={ this.state.equipe }/>}/> 
           <Route path="/Login" element={<Login/>}/>
-          {/* <Route path="/Cadastro" element={<Cadastro/>}/> */}
+          <Route path="/Cadastro" element={<Cadastro/>}/>
           
           </Routes>
           {/* <Outlet/> */}
