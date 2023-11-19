@@ -1,0 +1,25 @@
+#rodape{
+    background-color: #ECD5FD;
+    color: #240046;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 -8px;
+
+}
+hr{
+    width: 300px;
+    margin-top: -20px;
+    border: #BD8FFF solid 1px;
+}
+section{
+ display: flex;
+ justify-content: center;
+}
+section h3{
+    margin-right: 3em;
+}
+
