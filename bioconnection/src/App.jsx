@@ -10,6 +10,7 @@ import Equipe from "./pages/equipe/Equipe";
 import Cadastro from "./pages/cadastro/Cadastro";
 import Erro from "./pages/erro/Erro";
 import Rodape from "./component/rodape/Rodape";
+import Sobre from "./pages/sobre/Sobre";
 
 // import { Outlet } from "react-router-dom";
 
@@ -38,6 +39,7 @@ render(){
           <Route path="/Equipe" element={<Equipe grupo ={ this.state.equipe }/>}/> 
           <Route path="/Login" element={<Login/>}/>
           <Route path="/Cadastro" element={<Cadastro/>}/>
+          <Route path="/Sobre" element={<Sobre/>}/>
 
 
           <Route path="*" element={<Erro/>}/>

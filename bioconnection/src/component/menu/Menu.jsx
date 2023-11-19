@@ -7,10 +7,11 @@ export default function Menu(){
           <nav>
             <ul >
              
-              <li><Link to="/"> Home</Link></li> 
+              <li><Link to="/"> HOME</Link></li> 
+              <li><Link to="/Sobre"> QUEM SOMOS</Link></li> 
                
-              <li><Link to="/Equipe"> Equipe </Link></li> 
-              <li><Link to="/Login"> Area do Paciente </Link></li> 
+              <li><Link to="/Equipe"> EQUIPE </Link></li> 
+              <li><Link to="/Login"> AREA DO PACIENTE </Link></li> 
 
             </ul>
           </nav>
