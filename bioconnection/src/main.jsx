@@ -8,22 +8,19 @@ import './index.css'
 // import './pages/equipe/Equipe.css'
 // import './rodape.css'
 import Home from './pages/home/Home.jsx';
+import Erro from './pages/erro/Erro.jsx';
 // import Cadastro from './pages/Cadastro.jsx';
 // import Login from './pages/Login.jsx';
 // import Equipe from './pages/equipe/Equipe.jsx';
 
 const routes = createBrowserRouter([
-  { path: "/" , element: <App/>,errorElement: <Home/>,
+  { path: "/" , element: <App/>,errorElement: <Erro/>,
    children: [
     
       {path: "/", element: <Home/>},
-      // {path: "/Equipe", element: <Equipe grupo ={ this.state.equipe }/>},
       
-      // {path: "/Cadastro", element: <Cadastro/>},
-      // {path: "/Login", element: <Login/>},
-
       
-      {path: "*", element: <Home/>}
+      {path: "*", element: <Erro/>}
    ]
   }
 ]);

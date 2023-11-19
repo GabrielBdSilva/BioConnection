@@ -13,7 +13,7 @@ const Cadastro = () => {
   
       const userData = {
         nome: data.nome,
-        email: data.email,
+        cpf: data.cpf,
         password: data.password
       };
   

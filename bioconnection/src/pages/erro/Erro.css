@@ -1,0 +1,12 @@
+
+#Erro{
+    background-image: url("../../assets/Erro.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 960px;
+}
+#Erro h1{
+    margin: 0;
+    padding: 50px;
+    color: blueviolet;
+}
