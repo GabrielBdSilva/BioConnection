@@ -14,7 +14,10 @@ const Cadastro = () => {
       const userData = {
         nome: data.nome,
         cpf: data.cpf,
-        password: data.password
+        password: data.password,
+        email: data.email,
+        telefone: data.telefone,
+        convenio: data.convenio
       };
   
       //pega os dados q já tem 
@@ -46,21 +49,21 @@ const Cadastro = () => {
         <p>NOME COMPLETO</p>
         <input type="name" required= "preencha"  placeholder="Nome"{...register("nome", { required: "preencha" })} autoFocus />
         <p>EMAIL</p>
-        <input type="email" required= "preencha"  placeholder="Email"></input>
+        <input type="email" required= "preencha"  placeholder="Email"{...register("email", { required: "preencha" })} autoFocus />
         <p>TELEFONE</p>
-        <input type="telefone" required= "preencha"  placeholder="Telefone"></input>
+        <input type="telefone" required= "preencha"  placeholder="Telefone"{...register("telefone", { required: "preencha" })} autoFocus />
         <p>CONVÊNIO</p>
-        <input type="convenio" required= "preencha"  placeholder="Convenio"></input>
+        <input type="convenio" required= "preencha"  placeholder="Convenio"{...register("convenio", { required: "preencha" })} autoFocus />
         </div>
 
 {/* ARRUMAR DADOS */}
         <div>
         <p>DATA DE NASCIMENTO</p>
-        <input type="date" required= "preencha"  placeholder="Data de nascimento"/>
+        <input type="date" required= "preencha"  placeholder="Data de nascimento"{...register("dtnasc", { required: "preencha" })} autoFocus />
         <p>CPF</p>
         <input type="cpf" required= "preencha"  placeholder="CPF"{...register("cpf", { required: "preencha" })}/>
         <p>SENHA</p>
-        <input type="password" required= "preencha"  placeholder="Senha"></input>
+        <input type="password" required= "preencha"  placeholder="Senha"{...register("password", { required: "preencha" })}  />
         <p>CONFIRME A SENHA</p>
         <input type="password" required= "preencha"  placeholder="Senha"{...register("password", { required: "preencha" })}  />
         </div>

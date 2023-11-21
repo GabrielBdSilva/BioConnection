@@ -1,0 +1,29 @@
+#EqcSenha{
+    background-color: #2400466B;;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#EqcSenha input{
+    background-color: #ffffffaa;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  outline: 0;
+}
+#EqcSenha p{
+    padding: 5px;
+    font-weight: bold;
+}
+#EqcSenha button{
+    background-color: #EBC9FFAA;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+  }
