@@ -15,7 +15,7 @@ const Login = () => {
     const userExists = storedUserData.find(user => user.cpf === data.cpf && user.password === data.password);
 
     if (userExists) {
-      navigate('/Equipe');
+      navigate('/Formulario');
     } else {
       alert("Usuário ou senha inválidos!");
     }

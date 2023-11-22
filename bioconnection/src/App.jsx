@@ -12,6 +12,7 @@ import Erro from "./pages/erro/Erro";
 import Rodape from "./component/rodape/Rodape";
 import Sobre from "./pages/sobre/Sobre";
 import EqcSenha from "./pages/eqcSenha/EqcSenha";
+import Formulario from "./pages/formulario/Formulario";
 
 // import { Outlet } from "react-router-dom";
 
@@ -42,6 +43,7 @@ render(){
           <Route path="/Cadastro" element={<Cadastro/>}/>
           <Route path="/Sobre" element={<Sobre/>}/>
           <Route path="/eqcSenha" element={<EqcSenha/>}/>
+          <Route path="/Formulario" element={<Formulario/>}/>
 
 
           <Route path="*" element={<Erro/>}/>
