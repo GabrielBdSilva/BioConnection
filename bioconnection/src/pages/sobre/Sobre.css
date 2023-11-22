@@ -1,0 +1,27 @@
+
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 641px;
+
+
+}
+#sobre h2{
+    color: #240046;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#sobre h3{
+    color: #240046;
+    
+}
+
+#sobre p{
+    color: #240046;
+    text-align: justify;
+    margin-right: 46px;
+    max-width: 580px;
+    font-size: 19px;
+}
